@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+
+video {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    filter: blur(3px);
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 56%;
+    left: 50%;
+}
+
+.box{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 43%;
+    left: 50%;
+    width: 200px;
+    height: 210px;
+    border: solid #4f4e4d;
+    border-radius: 85%;
+    margin: 0;
+    padding: 0;
+}
+
+.profilegif{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 201px;
+    height: 210px;
+    border-radius: 85%;
+}
